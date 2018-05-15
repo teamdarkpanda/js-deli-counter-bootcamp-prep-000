@@ -18,7 +18,13 @@ function currentLine(katzDeliLine) {
   }
   var names = "The Line is currently: "
   for(var i = 0; i < katzDeliLine.length; i++) {
-    
+    var position = i + 1
+    var name = katzDeliLine[i]
+    if(position === katzDeliLine.length) {
+      names += `${position}. ${name}`
+    } else {
+      names += `${position}. ${name},`  
+    }
   }
   return names
 }
