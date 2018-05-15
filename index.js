@@ -21,9 +21,9 @@ function currentLine(katzDeliLine) {
     var position = i + 1
     var name = katzDeliLine[i]
     if(position === katzDeliLine.length) {
-      names = names + `${position}. ${name}`
+      names += `${position}. ${name}`
     } else {
-      names = names + `${position}. ${name}, `  
+      names += `${position}. ${name}, `  
     }
   }
   return names
