@@ -17,6 +17,7 @@ function currentLine(katzDeliLine) {
     return `The line is currently empty.`
   }
   var names = "The line is currently: "
+  
   for(var i = 0; i < katzDeliLine.length; i++) {
     var position = i + 1
     var name = katzDeliLine[i]
