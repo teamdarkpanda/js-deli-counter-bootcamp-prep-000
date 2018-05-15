@@ -23,7 +23,7 @@ function currentLine(katzDeliLine) {
     if(position === katzDeliLine.length) {
       names += `${position}. ${name}`
     } else {
-      names += `${position}. ${name},`  
+      names += `${position}. ${name}, `  
     }
   }
   return names
