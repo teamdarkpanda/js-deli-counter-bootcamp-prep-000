@@ -9,5 +9,5 @@ function nowServing(katzDeliLine) {
     return `There is nobody waiting to be served!`
   }
   var name = katzDeliLine.shift()
-  console.log(name)
+  return `Currently serving ${name}.`
 }
